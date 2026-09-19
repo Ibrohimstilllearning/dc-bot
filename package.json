@@ -1,0 +1,16 @@
+{
+  "name": "nofap-streak-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord untuk streak nofap bareng teman - sistem penalti bertingkat + trigger report",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5"
+  }
+}
